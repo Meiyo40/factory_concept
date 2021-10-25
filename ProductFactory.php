@@ -3,7 +3,7 @@
 require_once("./ProductA.php");
 require_once("./ProductB.php");
 
-class Factory
+class ProductFactory
 {
     public static function getProduct($type)
     {

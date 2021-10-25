@@ -1,8 +1,8 @@
 <?php
 
-require_once("./iFactoryImpl.php");
+require_once("./iProductImpl.php");
 
-class ProductA implements iFactoryImpl
+class ProductA implements iProductImpl
 {
     private $type = "A";
 
